@@ -1,0 +1,13 @@
+{
+  "name": "minimal-cors-proxy",
+  "version": "1.0.0",
+  "description": "A minimal CORS proxy set up for an express server.",
+  "main": "index.js",
+  "repository": "git@github.com:jacklaurencegaray/minimal-cors-proxy.git",
+  "author": "Jack Laurence Garay <lawrencetecho@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.0"
+  }
+}
