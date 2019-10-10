@@ -1,0 +1,18 @@
+yarn run v1.12.3
+$ node index.js
+A proxy for  development-api.soundstation.audio  is running
+Running at:  http://localhost:7000
+yarn run v1.12.3
+$ node index.js
+A proxy for  development-api.soundstation.audio  is running
+Running at:  http://localhost:7000
+Killed
+error Command failed with exit code 137.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn run v1.12.3
+$ node index.js
+A proxy for  development-api.soundstation.audio  is running
+Running at:  http://localhost:7000
+Killed
+error Command failed with exit code 137.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.

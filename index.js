@@ -1,6 +1,7 @@
 require('dotenv').config({ path: './.env' });
 var proxy= require('express-http-proxy');
 var app = require('express')();
+var cors = require('cors');
 var port = process.env.PORT || 7000;
 
 if (!process.env.HOST) 
@@ -10,5 +11,6 @@ var host = process.env.HOST;
 console.log('A proxy for ', host, ' is running');
 console.log('Running at: ', 'http://localhost:'.concat(port));
  
-app.use('/', proxy(host));
+app.all('/*', proxy(host));
+app.use(cors());
 app.listen(port);
